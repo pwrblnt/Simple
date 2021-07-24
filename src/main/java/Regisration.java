@@ -13,24 +13,24 @@ public class Regisration {
 
     public static void reg_user() {
         Scanner input = new Scanner(System.in);
-        System.out.println("                                                                                                  \n"+
-                           "                                                                                                  \n"+
-                           " ▒█████  ▄▄▄█████▓ ██▀███       ██████  ▄████▄   ▄▄▄       ███▄ ▄███▓    ▄▄▄▄    ▒█████  ▄▄▄█████▓\n"+
-                           "▒██▒  ██▒▓  ██▒ ▓▒▓██ ▒ ██▒   ▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██▒▀█▀ ██▒   ▓█████▄ ▒██▒  ██▒▓  ██▒ ▓▒\n"+
-                           "▒██░  ██▒▒ ▓██░ ▒░▓██ ░▄█ ▒   ░ ▓██▄   ▒▓█    ▄ ▒██  ▀█▄  ▓██    ▓██░   ▒██▒ ▄██▒██░  ██▒▒ ▓██░ ▒░\n"+
-                           "▒██   ██░░ ▓██▓ ░ ▒██▀▀█▄       ▒   ██▒▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██    ▒██    ▒██░█▀  ▒██   ██░░ ▓██▓ ░ \n"+
-                           "░ ████▓▒░  ▒██▒ ░ ░██▓ ▒██▒   ▒██████▒▒▒ ▓███▀ ░ ▓█   ▓██▒▒██▒   ░██▒   ░▓█  ▀█▓░ ████▓▒░  ▒██▒ ░ \n"+
-                           "░ ▒░▒░▒░   ▒ ░░   ░ ▒▓ ░▒▓░   ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒░   ░  ░   ░▒▓███▀▒░ ▒░▒░▒░   ▒ ░░   \n"+
-                           "  ░ ▒ ▒░     ░      ░▒ ░ ▒░   ░ ░▒  ░ ░  ░  ▒     ▒   ▒▒ ░░  ░      ░   ▒░▒   ░   ░ ▒ ▒░     ░    \n"+
-                           "░ ░ ░ ▒    ░        ░░   ░    ░  ░  ░  ░          ░   ▒   ░      ░       ░    ░ ░ ░ ░ ▒    ░      \n"+
-                           "    ░ ░              ░              ░  ░ ░            ░  ░       ░       ░          ░ ░           \n"+
-                           "                                       ░                                      ░                   ");
+        System.out.println("                                                                                                  \n" +
+                "                                                                                                  \n" +
+                " ▒█████  ▄▄▄█████▓ ██▀███       ██████  ▄████▄   ▄▄▄       ███▄ ▄███▓    ▄▄▄▄    ▒█████  ▄▄▄█████▓\n" +
+                "▒██▒  ██▒▓  ██▒ ▓▒▓██ ▒ ██▒   ▒██    ▒ ▒██▀ ▀█  ▒████▄    ▓██▒▀█▀ ██▒   ▓█████▄ ▒██▒  ██▒▓  ██▒ ▓▒\n" +
+                "▒██░  ██▒▒ ▓██░ ▒░▓██ ░▄█ ▒   ░ ▓██▄   ▒▓█    ▄ ▒██  ▀█▄  ▓██    ▓██░   ▒██▒ ▄██▒██░  ██▒▒ ▓██░ ▒░\n" +
+                "▒██   ██░░ ▓██▓ ░ ▒██▀▀█▄       ▒   ██▒▒▓▓▄ ▄██▒░██▄▄▄▄██ ▒██    ▒██    ▒██░█▀  ▒██   ██░░ ▓██▓ ░ \n" +
+                "░ ████▓▒░  ▒██▒ ░ ░██▓ ▒██▒   ▒██████▒▒▒ ▓███▀ ░ ▓█   ▓██▒▒██▒   ░██▒   ░▓█  ▀█▓░ ████▓▒░  ▒██▒ ░ \n" +
+                "░ ▒░▒░▒░   ▒ ░░   ░ ▒▓ ░▒▓░   ▒ ▒▓▒ ▒ ░░ ░▒ ▒  ░ ▒▒   ▓▒█░░ ▒░   ░  ░   ░▒▓███▀▒░ ▒░▒░▒░   ▒ ░░   \n" +
+                "  ░ ▒ ▒░     ░      ░▒ ░ ▒░   ░ ░▒  ░ ░  ░  ▒     ▒   ▒▒ ░░  ░      ░   ▒░▒   ░   ░ ▒ ▒░     ░    \n" +
+                "░ ░ ░ ▒    ░        ░░   ░    ░  ░  ░  ░          ░   ▒   ░      ░       ░    ░ ░ ░ ░ ▒    ░      \n" +
+                "    ░ ░              ░              ░  ░ ░            ░  ░       ░       ░          ░ ░           \n" +
+                "                                       ░                                      ░                   ");
         boolean TcString;
         System.out.println("Please enter timecontrol in format - \"TIMECONTROL-?????\"");
         while (true) {
             String timecontrol = input.nextLine();
 
-            TcString = timecontrol.matches("[TIMECONTROL]+[-]+[0-9]+");
+            TcString = timecontrol.matches("TIMECONTROL+[-]+[0-9]");
 
             if (TcString) {
                 timecontrol_for_sel = timecontrol;
@@ -45,6 +45,8 @@ public class Regisration {
         String login = input.nextLine();
         System.out.println("Please enter password:");
         String password = input.nextLine();
+        login_for_sel = login;
+        password_for_sel = password;
         System.out.println("Please enter time to start in format - hour minute:");
 
         while (true) {
@@ -67,22 +69,21 @@ public class Regisration {
         while (true) {
             int hour_pause = input.nextInt();
             int minute_pause = input.nextInt();
-
-
-            if (hour_pause <= 24 && minute_pause <= 60) {
-                hour_pause_for_sel = hour_pause;
-                minute_pause_for_sel = minute_pause;
-                break;
-
-            } else {
+            if (hour_pause >= 24 && minute_pause >= 60){
                 System.out.println("Please, try again! in format - hour minute: " + "Hour - " + hour_pause + " and minute - " + minute_pause);
+            } else {
+                if (hour_pause == hour_start_for_sel && minute_pause == minute_start_for_sel) {
+                    System.out.println("Please, enter time to pause again! start time cannot be equal to pause time!");
+                } else {
+                    hour_pause_for_sel = hour_pause;
+                    minute_pause_for_sel = minute_pause;
+                    break;
+                }
             }
         }
 
-        System.out.println("Welcome, " + login_for_sel +". "+ timecontrol_for_sel + " was work every weekday!");
+        System.out.println("Welcome, " + login_for_sel + ". " + timecontrol_for_sel + " was work every weekday!");
         System.out.println("For close press Ctrl + C");
-        login_for_sel = login;
-        password_for_sel = password;
         timecontrol_page = "https://asfk-support.ru/browse/" + timecontrol_for_sel;
 
 

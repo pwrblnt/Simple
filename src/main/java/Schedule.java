@@ -19,7 +19,7 @@ public class Schedule extends TimerTask {
                 SeleniumMove.loginAndStart();
 
             } else {
-                System.out.println("Today is weekend");
+                System.out.println(" Today is weekend");
             }
 
         } else {
@@ -29,7 +29,7 @@ public class Schedule extends TimerTask {
                 SeleniumMove.loginAndPause();
 
             } else {
-                System.out.println("Today is weekend");
+                System.out.println(" Today is weekend");
             }
         }
 
