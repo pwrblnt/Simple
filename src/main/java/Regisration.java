@@ -30,7 +30,7 @@ public class Regisration {
         while (true) {
             String timecontrol = input.nextLine();
 
-            TcString = timecontrol.matches("TIMECONTROL+[-]+[0-9]");
+            TcString = timecontrol.matches("TIMECONTROL+[-]+[0-9]+");
 
             if (TcString) {
                 timecontrol_for_sel = timecontrol;
